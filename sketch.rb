@@ -87,6 +87,9 @@ end
 module Fixture
   module Something
     class Example
+      def foo
+        puts "in foo"
+      end
     end
 
     def self.example
