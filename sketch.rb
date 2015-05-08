@@ -83,6 +83,20 @@ end
 
 # - - -
 
+
+module Fixture
+  module Something
+    class Example
+    end
+
+    def self.example
+      Example.new
+    end
+  end
+end
+
+puts Fixture::Something.example
+
 fixture = Fixture.define do
   def self.example_class
     define_class do
@@ -97,4 +111,4 @@ fixture = Fixture.define do
   end
 end
 
-fixture.example.foo
+puts fixture.example
