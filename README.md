@@ -28,7 +28,8 @@ In the above code, `some_fixture` is an instance of a class with an outermost na
 
 ````
 puts fixture.example
-# => <Fixture::M1bd19401d8674d54a87f7871511f0daf::C9980bf7c3cbd42df88cc9bc35b251d50:0x26f67b76>
+# => <Fixture::M1bd19401d8674d54a87f7871511f0daf::
+# C9980bf7c3cbd42df88cc9bc35b251d50:0x26f67b76>
 ````
 
 This allows each set of tests to run independently of one another, but still contains all test data within the `Fixture` namespace.
