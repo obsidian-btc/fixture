@@ -60,3 +60,6 @@ puts fixture.naming_example
 
 The fixture retains the randomly assigned UUID module namespace directly beneath the `Fixture` namespace so that the test environments are still guaranteed to be independent. The `SomeModule` namespace and the `SomeClass` class name follow.
 
+## License
+
+The `fixture` library is released under the [MIT License](https://github.com/obsidian-btc/fixture/blob/master/MIT-License.txt).
